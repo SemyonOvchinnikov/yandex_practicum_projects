@@ -1,15 +1,13 @@
-# Прогнозирование восстановление золота из руды
+# Predicting gold recovery from ore
 
-## Описание
-Необходимо разработать модель предсказывающую коэффициент восстановления золота из золотосодержащей руды. 
-В качестве исходных данных используются данные с параметрами добычи и очистки.
-Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками.
+## Description
+It is required to develop a model predicting the recovery rate of gold from gold-bearing ore. Data with mining and refining parameters are used as input data. The model will help to optimize production to avoid running a plant with unprofitable characteristics
 
-## План
-1. Исследовательский анализ данных
-2. Предобработка данных
-3. Выбор метрики и разработка модели
-4. Тестирование модели
+## Plan
+1. EDA
+2. Data preprocessing
+3. Metric selection and model fit
+4. Model testing
 
-## Стек
+## Teck Stack
 *pandas, numpy, sklearn, matplotlib, seaborn*
