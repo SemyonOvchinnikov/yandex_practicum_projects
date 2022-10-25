@@ -1,19 +1,17 @@
-# Отток клиентов
+# Customer churn rate
 
-## Описание
-Из «Бета-Банка» стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
-Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Вам предоставлены исторические данные о поведении клиентов и расторжении договоров с банком. 
-Необходимо построить модель с целевым значением метрики *F1* 0.59.
-Источник данных: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
+## Description
+It is required to predict whether a client will leave the bank in the near future or not. Historical data on customer behavior and termination of contracts with the bank are provided. It is required to build a model with the target value of F1 metric 0.59
+Data source: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
 
-## План
-1. Исследовательский анализ данных
-2. Предобработка данных
-3. Исследование баланса классов. Использование разных методов борьбы с дисбалансом классов (upsampling, downsampling, взвешивание классов, изменение порога классификации)
-4. Обучение моделей
-5. Тестирование модели
-6. Оценка важности признаков
+## Plan
+1. EDA
+2. Data preprocessing
+3. Using different methods to manage class imbalances (upsampling, downsampling, weighting classes, changing the classification threshold)
+4. Models fitting
+5. Models testing
+6. Features importance
 
 
-## Стек
+## Tech stack
 *pandas, numpy, sklearn, matplotlib*
