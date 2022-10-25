@@ -1,4 +1,4 @@
-# Repository with Yandex Practicum Workbook Projects
+# Repository with Yandex Practicum Workshop Projects
 
 
 |Project name|Description|Tech Stack|Link|
