@@ -1,16 +1,14 @@
-# Анализ продаж видеоигр
+# Video game sales analysisр
 
-## Введение
-Интернет-магазин «Стримчик» продаёт по всему миру компьютерные игры. Из открытых источников доступны исторические данные о продажах игр, оценки пользователей и экспертов, жанры и платформы (например, Xbox или PlayStation). Необходимо выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании. Предоставлены данные до 2016 года, сейчас декабрь 2016 г., и планируется кампания на 2017-й.
+## Description
+Online store sells computer games all over the world. Historical data on game sales, user and expert evaluations, genres and platforms (e.g. Xbox or PlayStation) are available from open sources. It is required to identify the patterns that determine the success of a game. This will allow to focus on a potentially popular product and plan advertising campaigns. Provided data through 2016, and planning a campaign for 2017.
 
-Примечание: В наборе данных попадается аббревиатура ESRB (Entertainment Software Rating Board) — это ассоциация, определяющая возрастной рейтинг компьютерных игр. ESRB оценивает игровой контент и присваивает ему подходящую возрастную категорию, например, «Для взрослых», «Для детей младшего возраста» или «Для подростков».
+## Plan
+* Data preprocessing;
+* Data exploratory by periods, platforms;
+* Selection of the relevant period for analysis and identification of the most promising platforms and genres;
+* User portrait by region;
+* Hypothesis testing.
 
-## План исследования
-* Подготовка данных;
-* Исследование данных в разрезе периодов, платформ;
-* Выбор актуального периода для анализа и поиск наиболее перспективных платформ и жанров;
-* Портрет пользователя по регионам;
-* Проверка гипотез.
-
-## Стек
+## Teck Stack
 pandas, numpy, scipy, matplotlib, seaborn, re, datetime
