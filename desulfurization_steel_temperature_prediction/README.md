@@ -1,15 +1,14 @@
-# Прогнозирование температуры стали при десульфировании
+# Steel temperature prediction during desulfurization
 
-## Описание
-Чтобы оптимизировать производственные расходы, металлургический комбинат ООО «Так закаляем сталь» решил уменьшить потребление электроэнергии на этапе обработки стали. Необходимо построить модель, которая предскажет температуру стали.
-Модель будет использоваться для моделирования различных сценариев технологического процесса. Конечные пользователи - технологи заказчика на производстве.
+## Description
+In order to optimize production costs, the steel plant decided to reduce electricity consumption at the steel processing stage. It is required to build a model that predicts the temperature of the steel. The model will be used to simulate various process scenarios. End users - customer's production technologists
 
-## План
-1. Исследовательский анализ данных. Анализ основных свойст данных, нахождение в них общих закономерностей, распределений и аномалий.
-2. Предобработка данных. Агрегация данных для data_arc и data_temp. Создание дополнительных признаков. Объединение данные в один датасет методом Inner Join. Удаление некорректных значений (отрицательных, пропусков). Деление на обучающую и тестовую выборки. Обработка аномальных значений в обучающей выборке. Подготовка признаков (масштабирование).
-3. Разработка модели. Выбор перечня моделей. Выбор диапазонов гиперпараметров. Обучение и поиск оптимальной модели с помощью RandomizedSearchCV
-4. Тестирование модели, проверка на адекватность с помощью константной модели, feature importance
-5. Составление отчета.
+## Plan
+1. EDA. Analysis of the data properties, patterns, distributions and anomalies.
+2. Data preprocessing. Aggregation of data for data_arc and data_temp. Creation of additional features. Data joining into one dataset with Inner Join method. Removing incorrect values (negative and missing values). Split into training and test samples. Processing of abnormal values in a training sample. Preparation of the features (scaling, etc.)
+3. Models selection and pipelines development. Selection of hyperparameter ranges. Training and selection of optimal model with RandomizedSearchCV
+4. Testing the model, adequacy check with a constant model, feature importance
+5. Report preparation.
 
-## Стек
+## Teck Stack
 *pandas, numpy, sklearn, catboost, lightgbm, matplotlib, seaborn*
